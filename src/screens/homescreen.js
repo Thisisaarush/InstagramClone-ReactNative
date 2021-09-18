@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import { SafeAreaView, StatusBar } from "react-native";
-import { HeaderComponent } from "../../src/components/header.component";
-import { StoriesComponent } from "../../src/components/stories.component";
-import { PostComponent } from "../../src/components/post.component";
+import { HeaderComponent } from "../components/header.component";
+import { StoriesComponent } from "../components/stories.component";
+import { PostComponent } from "../components/post.component";
 
 // styled components
 const SafeArea = styled(SafeAreaView)`
